@@ -1,0 +1,5 @@
+import * as React from "react";
+import SharedElementSceneData from "./SharedElementSceneData";
+declare const SharedElementSceneContext: React.Context<SharedElementSceneData | null>;
+export default SharedElementSceneContext;
+//# sourceMappingURL=SharedElementSceneContext.d.ts.map

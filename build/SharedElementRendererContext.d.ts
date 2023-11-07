@@ -1,0 +1,5 @@
+import * as React from "react";
+import { ISharedElementRendererData } from "./SharedElementRendererData";
+declare const SharedElementRendererContext: React.Context<ISharedElementRendererData | null>;
+export default SharedElementRendererContext;
+//# sourceMappingURL=SharedElementRendererContext.d.ts.map

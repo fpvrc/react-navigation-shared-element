@@ -5,15 +5,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "sideEffects": false,
-  "scripts": {
-    "start": "npx react-native start",
-    "android": "npx react-native run-android",
-    "ios": "npx react-native run-ios",
-    "build": "npx react-native build",
-    "clean": "npx react-native clean",
-    "lint": "eslint .",
-    "test": "jest"
-  },
+  "scripts": {},
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -42,16 +34,15 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^15.0.0",
-    "@react-navigation/bottom-tabs": "^6.0.9",
-    "@react-navigation/material-top-tabs": "^6.0.6",
-    "@react-navigation/native": "^6.0.6",
-    "@react-navigation/stack": "^6.0.11",
+    "@react-navigation/bottom-tabs": "5",
+    "@react-navigation/material-top-tabs": "5",
+    "@react-navigation/native": "5",
+    "@react-navigation/stack": "5",
     "@types/react": "^17.0.15",
     "@types/react-native": "^0.64.12",
     "commitlint": "^15.0.0",
     "conventional-changelog-cli": "^2.1.1",
     "eslint": "^7.32.0",
-    "expo-module-scripts": "^2.0.0",
     "prettier": "^2.4.1",
     "react-native-shared-element": "^0.8.3",
     "react-navigation": "^4.4.4",
